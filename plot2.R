@@ -13,7 +13,7 @@ png(file = "plot2.png",
 )
 
 with( hh,
-      plot(1:length(Global_active_power),Global_active_power,type="n",xlab = " ", ylab = "Global Active Power (kilowatts" , xaxt="n")
+      plot(1:length(Global_active_power),Global_active_power,type="n",xlab = " ", ylab = "Global Active Power (kilowatts)" , xaxt="n")
      )
 lines(1:length(hh$Global_active_power),hh$Global_active_power,
       ylab =  "Global Active Power (kilowatts)",
